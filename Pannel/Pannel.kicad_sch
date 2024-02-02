@@ -428,6 +428,71 @@
         )
       )
     )
+    (symbol "D_Schottky_1" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (id 0) (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_Schottky_1" (id 1) (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode Schottky" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Schottky diode" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_Schottky_1_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "D_Schottky_1_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "D_Schottky_3" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -6304,7 +6369,7 @@
     (property "Value" "10uF" (id 1) (at 208.28 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 206.7052 97.79 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 206.7052 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 205.74 93.98 0)
@@ -6386,16 +6451,16 @@
     (pin "9" (uuid bc890ad8-1d3d-436a-ab7c-2d11e0f31b47))
   )
 
-  (symbol (lib_name "D_Schottky_3") (lib_id "Device:D_Schottky") (at 93.98 149.86 270) (unit 1)
+  (symbol (lib_name "D_Schottky_1") (lib_id "Device:D_Schottky") (at 93.98 149.86 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3ed5ee36-eed7-4c90-9b4e-319b8feaa820)
     (property "Reference" "D1" (id 0) (at 88.9 154.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SBR1A40SA" (id 1) (at 88.9 157.48 90)
+    (property "Value" "1N5819WS" (id 1) (at 88.9 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMA_Handsoldering" (id 2) (at 93.98 149.86 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (id 2) (at 93.98 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 149.86 0)
@@ -7325,8 +7390,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 85e596eb-2d05-4aa4-9d56-5790c6f6caf0)
     (property "Reference" "D11" (id 0) (at 279.0825 67.31 0))
-    (property "Value" "SBR1A40SA" (id 1) (at 279.0825 69.85 0))
-    (property "Footprint" "Diode_SMD:D_SMA_Handsoldering" (id 2) (at 279.4 73.66 0)
+    (property "Value" "1N5819WS" (id 1) (at 279.0825 69.85 0))
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (id 2) (at 279.4 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 279.4 73.66 0)
@@ -8049,7 +8114,7 @@
   (symbol (lib_id "Device:C") (at 71.12 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b6840320-619e-43d4-96f6-547c766d63b2)
-    (property "Reference" "C?" (id 0) (at 74.93 135.8899 0)
+    (property "Reference" "C1" (id 0) (at 74.93 135.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 74.93 138.4299 0)
@@ -8354,7 +8419,7 @@
     (property "Value" "10uF" (id 1) (at 137.16 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 135.5852 95.25 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 135.5852 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 134.62 91.44 0)
@@ -8639,21 +8704,6 @@
     (pin "2" (uuid bfd55de1-c749-4117-b86a-b5541ccff48d))
   )
 
-  (symbol (lib_name "D_Schottky_3") (lib_id "Device:D_Schottky") (at 172.72 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid eae35d4e-62ff-4876-bc6a-d913690e54d3)
-    (property "Reference" "D7" (id 0) (at 172.72 83.82 0))
-    (property "Value" "SBR1A40SA" (id 1) (at 172.72 86.36 0))
-    (property "Footprint" "Diode_SMD:D_SMA_Handsoldering" (id 2) (at 172.72 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 172.72 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 39766db2-953a-443f-85ad-cd9f43699794))
-    (pin "2" (uuid de735697-60b0-4803-a9fb-ea8b9e187a2d))
-  )
-
   (symbol (lib_id "power:GND") (at 548.64 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ee33b1d9-333d-4b4a-b6a7-022137d3a52b)
@@ -8721,7 +8771,7 @@
   (symbol (lib_id "Connector:Conn_01x10_Male") (at 71.12 246.38 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f165734e-04b8-4bb6-a673-21efc01c3361)
-    (property "Reference" "J?" (id 0) (at 71.755 231.14 0))
+    (property "Reference" "J3" (id 0) (at 71.755 231.14 0))
     (property "Value" "Conn_01x10_Male" (id 1) (at 71.755 233.68 0))
     (property "Footprint" "BoxHeader_1.27mm:BoxHeader_2x05_P1.27mm_Vertical_SMD" (id 2) (at 71.12 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8760,7 +8810,7 @@
   (symbol (lib_id "Device:C") (at 254 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f85c989d-562e-47b3-83cb-ab114c33cb01)
-    (property "Reference" "C?" (id 0) (at 257.81 146.0499 0)
+    (property "Reference" "C10" (id 0) (at 257.81 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 257.81 148.5899 0)
@@ -8822,6 +8872,21 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6083de2e-dc27-400a-80a7-a1a2c244d456))
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 172.72 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid fab4256d-8d63-4f41-8c03-103850ad50eb)
+    (property "Reference" "D7" (id 0) (at 172.72 86.36 0))
+    (property "Value" "SS2040FL" (id 1) (at 172.72 83.82 0))
+    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 172.72 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 172.72 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a0be32b7-de1d-4814-a364-2c9490cb0bb0))
+    (pin "2" (uuid db4c449f-766f-41a5-92b8-360c13fdc607))
   )
 
   (symbol (lib_id "Device:R") (at 144.78 157.48 180) (unit 1)
@@ -9106,11 +9171,14 @@
     (path "/ee33b1d9-333d-4b4a-b6a7-022137d3a52b"
       (reference "#PWR058") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b6840320-619e-43d4-96f6-547c766d63b2"
+      (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/67c490cc-fc2c-4fab-9127-c49a9a5a1dc6"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/cfd5ba1c-1821-4334-910d-17809a83c077"
-      (reference "C3") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C3") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/1f16eb18-06a3-4445-83cc-1586203ce83e"
       (reference "C4") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -9119,7 +9187,7 @@
       (reference "C5") (unit 1) (value "ADJ_ST") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/3b27e57e-fe07-46ab-86e1-64b9b39500eb"
-      (reference "C6") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C6") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/c148735d-6e17-473a-a353-7c706f3310f6"
       (reference "C7") (unit 1) (value "470uF") (footprint "")
@@ -9129,6 +9197,9 @@
     )
     (path "/65ac2e00-ec9a-41c9-aa53-ba1dd8deca65"
       (reference "C9") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/f85c989d-562e-47b3-83cb-ab114c33cb01"
+      (reference "C10") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/fb026700-6304-4c85-b7fa-1f1e7a63a43a"
       (reference "C11") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -9154,14 +9225,8 @@
     (path "/414313f1-3b9a-431a-9c5b-74b48a014912"
       (reference "C18") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/b6840320-619e-43d4-96f6-547c766d63b2"
-      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/f85c989d-562e-47b3-83cb-ab114c33cb01"
-      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/3ed5ee36-eed7-4c90-9b4e-319b8feaa820"
-      (reference "D1") (unit 1) (value "SBR1A40SA") (footprint "Diode_SMD:D_SMA_Handsoldering")
+      (reference "D1") (unit 1) (value "1N5819WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/0f81055f-6090-415e-91f0-ad4b905afc67"
       (reference "D2") (unit 1) (value "Red") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -9178,8 +9243,8 @@
     (path "/995463fc-e189-4c77-b2b4-3e1879af21c7"
       (reference "D6") (unit 1) (value "Yellow") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
-    (path "/eae35d4e-62ff-4876-bc6a-d913690e54d3"
-      (reference "D7") (unit 1) (value "SBR1A40SA") (footprint "Diode_SMD:D_SMA_Handsoldering")
+    (path "/fab4256d-8d63-4f41-8c03-103850ad50eb"
+      (reference "D7") (unit 1) (value "SS2040FL") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/40afe149-baf4-4592-b353-ea703d34a68d"
       (reference "D8") (unit 1) (value "?") (footprint "")
@@ -9191,7 +9256,7 @@
       (reference "D10") (unit 1) (value "SS2040FL") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/85e596eb-2d05-4aa4-9d56-5790c6f6caf0"
-      (reference "D11") (unit 1) (value "SBR1A40SA") (footprint "Diode_SMD:D_SMA_Handsoldering")
+      (reference "D11") (unit 1) (value "1N5819WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/82236554-b4fd-4c66-afd6-3216e7099810"
       (reference "D12") (unit 1) (value "Green") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -9238,14 +9303,14 @@
     (path "/fc452771-483d-4491-a9a5-92396e3b80d2"
       (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal")
     )
+    (path "/f165734e-04b8-4bb6-a673-21efc01c3361"
+      (reference "J3") (unit 1) (value "Conn_01x10_Male") (footprint "BoxHeader_1.27mm:BoxHeader_2x05_P1.27mm_Vertical_SMD")
+    )
     (path "/1ac864ba-2dc7-41c2-b122-44cef9d40964"
       (reference "J4") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_Molex:Molex_SPOX_5268-04A_1x04_P2.50mm_Horizontal")
     )
     (path "/4c02652b-379d-411b-ad3e-8f6cb91fa8fd"
       (reference "J5") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_Molex:Molex_SPOX_5268-04A_1x04_P2.50mm_Horizontal")
-    )
-    (path "/f165734e-04b8-4bb6-a673-21efc01c3361"
-      (reference "J?") (unit 1) (value "Conn_01x10_Male") (footprint "BoxHeader_1.27mm:BoxHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/b32e5410-6977-4f5d-844f-cbb8e8ef66fe"
       (reference "JP1") (unit 1) (value "SolderJumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels")
