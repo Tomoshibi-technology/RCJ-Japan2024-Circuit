@@ -1,0 +1,19 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,158.5,-70.05,270.0,bottom
+C2,470uF,C_Elec_8x10.2,143.825,-65.0,-90.0,top
+D2,1N5819WS,D_SOD-323_HandSoldering,143.825,-65.0,270.0,bottom
+F1,Fuse,Fuseholder_Blade_Mini_Keystone_3568,108.5,-67.46,90.0,top
+J1,Conn_01x02_Male,AMASS_XT30U-M_1x02_P5.0mm_Vertical,98.5,-70.5,-90.0,top
+J2,Conn_01x02_Female,AMASS_XT30U-F_1x02_P5.0mm_Vertical,110.5,-52.0,180.0,top
+J3,Conn_01x02_Female,AMASS_XT30U-F_1x02_P5.0mm_Vertical,124.5,-52.0,180.0,top
+J4,Conn_01x02_Female,AMASS_XT30U-F_1x02_P5.0mm_Vertical,138.5,-52.0,180.0,top
+J5,Conn_01x02_Female,AMASS_XT30U-F_1x02_P5.0mm_Vertical,152.5,-52.0,180.0,top
+MES1,Voltmeter_DC,SuperSmallVoltmeter_twoline,131.5,-79.3,0.0,top
+Q1,MTP4835I3,TO-252-3_TabPin2,118.925,-65.55,90.0,top
+Q2,BSS138,SOT-23,154.5,-70.05,90.0,bottom
+Q3,MTP4835I3,TO-252-3_TabPin2,131.0,-64.3,0.0,top
+R1,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,160.0,-70.05,270.0,bottom
+R2,100k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,157.0,-70.05,270.0,bottom
+R3,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,154.510001,-67.3,0.0,bottom
+R5,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,154.5,-72.8,0.0,bottom
+SW1,SW_SPST,DS-850K-S-ON,159.0,-67.0,90.0,top
