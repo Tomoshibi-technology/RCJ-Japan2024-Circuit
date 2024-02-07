@@ -86,7 +86,7 @@
 
   (footprint "Capacitor_SMD:C_Elec_8x10.2" (layer "F.Cu")
     (tedit 5BC8D926) (tstamp 043baf13-577a-43a2-bc51-c04f72901e3d)
-    (at 52 18 -90)
+    (at 52 -22.3 -90)
     (descr "SMD capacitor, aluminum electrolytic nonpolar, 8.0x10.2mm")
     (tags "capacitor electrolyic nonpolar")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -147,7 +147,7 @@
 
   (footprint "Voltmeter:SuperSmallVoltmeter_twoline" (layer "F.Cu")
     (tedit 0) (tstamp 0b3a0733-831a-407f-9396-1640d0111c08)
-    (at 38 31.3)
+    (at 38 -9)
     (property "Sheetfile" "SmallPW.kicad_sch")
     (property "Sheetname" "")
     (path "/cd936e5b-515c-418b-8b0d-e8c44748976f")
@@ -198,7 +198,7 @@
 
   (footprint "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical" (layer "F.Cu")
     (tedit 5C8E9CCA) (tstamp 1d496e65-aed1-45f1-94a6-18424936a27c)
-    (at 5 19 -90)
+    (at 5 -21.3 -90)
     (descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -296,35 +296,9 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp 2f31270f-e7f9-4e72-aa6f-8ff755aaecbd)
-    (at 71 5)
-    (descr "Mounting Hole 3.2mm, no annular, M3")
-    (tags "mounting hole 3.2mm no annular m3")
-    (property "Sheetfile" "SmallPW.kicad_sch")
-    (property "Sheetname" "")
-    (path "/9e6543ef-7fe2-44ed-9f4c-679153033295")
-    (attr exclude_from_pos_files)
-    (fp_text reference "H3" (at 0 -4.2) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 821dc4b5-9e79-4c23-9756-9d84ddf0710b)
-    )
-    (fp_text value "MountingHole" (at 0 4.2) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 2121e4e3-b582-4671-baf4-291a5fb33617)
-    )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp b010677f-5133-426a-83d8-b79b519dfd92)
-    )
-    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 43f5a82c-773e-42d4-8148-6ef513535977))
-    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 3ef9813b-1d5f-4f73-94a0-3460f2455cdd))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp cfaa153e-caa4-4851-805f-aeed7536907a))
-  )
-
   (footprint "Diode_SMD:D_SOD-323_HandSoldering" (layer "F.Cu")
     (tedit 58641869) (tstamp 2fd934b6-ef92-45db-9c12-8ba413908e7d)
-    (at 44.67 22.97 180)
+    (at 44.67 -17.33 180)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -415,7 +389,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2" (layer "F.Cu")
     (tedit 5A70F30B) (tstamp 616b5aa2-4745-4ebb-84aa-039caaf8c214)
-    (at 25.425 17.475 90)
+    (at 25.425 -22.825 90)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -482,7 +456,7 @@
 
   (footprint "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (layer "F.Cu")
     (tedit 5C8E9CDA) (tstamp 7599e41c-e8d0-423b-be37-cfb5bbf758ba)
-    (at 61.5 5 180)
+    (at 61.5 -35.3 180)
     (descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -538,58 +512,6 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp 7bf73b7f-36ec-4833-89a8-138417b678bc)
-    (at 5 35)
-    (descr "Mounting Hole 3.2mm, no annular, M3")
-    (tags "mounting hole 3.2mm no annular m3")
-    (property "Sheetfile" "SmallPW.kicad_sch")
-    (property "Sheetname" "")
-    (path "/0181a6e1-7c54-468e-8392-dacac2eae964")
-    (attr exclude_from_pos_files)
-    (fp_text reference "H1" (at 0 -4.2) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 2998730b-0fb1-45b3-aba9-feb0ec0ae0af)
-    )
-    (fp_text value "MountingHole" (at 0 4.2) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp bab19f03-bdba-4895-a7b3-47b07f5adb37)
-    )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp abee1249-a793-4319-8a94-b67383e1a305)
-    )
-    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp df484cf6-202e-4e81-9e0f-b73f4b9dc534))
-    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp a9153180-b310-44b6-8331-c00ba144478f))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 119d435d-35b0-471e-916a-7f0571cc76bb))
-  )
-
-  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp 8b2885fd-24fc-4813-ac18-5877b8f2b85e)
-    (at 71 35)
-    (descr "Mounting Hole 3.2mm, no annular, M3")
-    (tags "mounting hole 3.2mm no annular m3")
-    (property "Sheetfile" "SmallPW.kicad_sch")
-    (property "Sheetname" "")
-    (path "/c0ac9d52-cacf-4d7a-bafe-e1b7637dd8f0")
-    (attr exclude_from_pos_files)
-    (fp_text reference "H2" (at 0 -4.2) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp ebab7d14-d3a7-4a44-ab30-fcd3e532d755)
-    )
-    (fp_text value "MountingHole" (at 0 4.2) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 55873ae9-b055-4dad-86c2-caa0386dcae7)
-    )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 66dfab41-c7e4-4577-ab96-d95ad98c2d6e)
-    )
-    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp e56683e2-ae5b-4d49-903f-bbe82fb63f82))
-    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 30c98191-f8a5-41cf-8ec5-3f4ffc510038))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp afdb780c-18e0-4e5d-a16f-4b154b1fe50c))
-  )
-
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 991db438-f8c6-414d-9752-cf12556a3377)
     (at 29 46)
@@ -599,7 +521,7 @@
     (property "Sheetname" "")
     (path "/653ffcd6-0eaf-4d7e-8d0d-28daf3e77145")
     (attr smd)
-    (fp_text reference "Q2" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "Q2" (at 0 -42.7) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7948d9ae-bcef-47ff-852d-767aec33e9ff)
     )
@@ -639,7 +561,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2" (layer "F.Cu")
     (tedit 5A70F30B) (tstamp b5998832-1842-4e64-8a63-705c197355ea)
-    (at 38.25 17.3)
+    (at 38.25 -23)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -706,7 +628,7 @@
 
   (footprint "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (layer "F.Cu")
     (tedit 5C8E9CDA) (tstamp cc21f24d-e1cf-41af-8780-87a3ae172043)
-    (at 47.5 5 180)
+    (at 47.5 -35.3 180)
     (descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -771,7 +693,7 @@
     (property "Sheetname" "")
     (path "/55d20af3-1852-4bff-a90f-7672e4877e8e")
     (attr smd)
-    (fp_text reference "R5" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R5" (at 0 -41.73) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c660c79-e6b1-4189-88ef-32d4d4248bf9)
     )
@@ -846,35 +768,9 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp d6691cbf-7753-47b9-a310-5c4fb0284c54)
-    (at 5 5)
-    (descr "Mounting Hole 3.2mm, no annular, M3")
-    (tags "mounting hole 3.2mm no annular m3")
-    (property "Sheetfile" "SmallPW.kicad_sch")
-    (property "Sheetname" "")
-    (path "/69320ecc-187c-4ab1-a856-35f68df4362d")
-    (attr exclude_from_pos_files)
-    (fp_text reference "H4" (at 0 -4.2) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp f5123e7e-6d51-4bb0-8255-136444582af4)
-    )
-    (fp_text value "MountingHole" (at 0 4.2) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 7096381a-b607-4768-b616-3bb8008a28aa)
-    )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 29628659-6cc9-4d21-8211-806db54b605a)
-    )
-    (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 40e564e3-287e-43e6-bf00-abb947edf322))
-    (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 5a315836-414f-465f-af7d-e964e766878d))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp e862958d-dee3-4240-9cfa-708a90a55c46))
-  )
-
   (footprint "Rocker_Switch:DS-850K-S-ON" (layer "F.Cu")
     (tedit 0) (tstamp da556cdd-334a-4e38-a667-fc7f77785ff8)
-    (at 66 20 90)
+    (at 66 -20.3 90)
     (property "Sheetfile" "SmallPW.kicad_sch")
     (property "Sheetname" "")
     (path "/52b8c5a1-c080-4618-b6bf-27dccfadd296")
@@ -943,7 +839,7 @@
 
   (footprint "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (layer "F.Cu")
     (tedit 5C8E9CDA) (tstamp e2e1c498-0fa3-493c-a89b-254fc391e014)
-    (at 19.5 5 180)
+    (at 19.5 -35.3 180)
     (descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -1001,7 +897,7 @@
 
   (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568" (layer "F.Cu")
     (tedit 5C39DE81) (tstamp e8681b6f-0f8a-4280-ade6-8ae7d9a7ed45)
-    (at 13.3 27.96 90)
+    (at 13.3 -12.34 90)
     (descr "fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306")
     (tags "car blade fuse mini")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -1052,7 +948,7 @@
 
   (footprint "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (layer "F.Cu")
     (tedit 5C8E9CDA) (tstamp f98676ef-e140-4260-b098-5b712b39f1a3)
-    (at 33.5 5 180)
+    (at 33.5 -35.3 180)
     (descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "SmallPW.kicad_sch")
@@ -1108,6 +1004,105 @@
     )
   )
 
-  (gr_rect (start 0 0) (end 76 40) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 90f7b395-47eb-4824-87b7-e4ff5d030234))
+  (gr_arc (start 3 0) (mid 0.87868 -0.87868) (end 0 -3) (layer "B.SilkS") (width 0.2) (tstamp 087187f1-cc07-4238-bd3d-4d7d9dfbacd5))
+  (gr_arc (start 73.000001 -40.000001) (mid 75.121321 -39.121321) (end 76.000001 -37.000001) (layer "B.SilkS") (width 0.2) (tstamp 0a9f0ad7-779b-4eef-9565-0e13252de8ca))
+  (gr_circle (center 71.000001 -35.000001) (end 75.500001 -35.000001) (layer "B.SilkS") (width 0.2) (fill none) (tstamp 158ce6d0-9c9b-44d9-8f54-5411844874a9))
+  (gr_arc (start 76.000001 -3) (mid 75.121321 -0.878679) (end 73.000001 0) (layer "B.SilkS") (width 0.2) (tstamp 1ce6fadd-4eef-4fd8-9719-d9501213b7b4))
+  (gr_line (start 0 -3) (end 0 -37.000001) (layer "B.SilkS") (width 0.2) (tstamp 266d9224-9b79-4ea4-bd01-c8cfde6c8d9c))
+  (gr_line (start 76.000001 -37.000001) (end 76.000001 -3) (layer "B.SilkS") (width 0.2) (tstamp 318cacea-66d0-4f4e-9050-a22735b2d3e7))
+  (gr_circle (center 71.000001 -5) (end 72.700001 -5) (layer "B.SilkS") (width 0.2) (fill none) (tstamp 39afe692-9c78-4236-9486-da53ad9a14ad))
+  (gr_circle (center 5 -5) (end 6.7 -5) (layer "B.SilkS") (width 0.2) (fill none) (tstamp 4f8fb7e3-f37c-4ea0-9840-17873f7b7e89))
+  (gr_circle (center 5 -5) (end 9.5 -5) (layer "B.SilkS") (width 0.2) (fill none) (tstamp 58792057-72d7-4a39-8ef3-0ba9af04f23d))
+  (gr_circle (center 71.000001 -5) (end 75.500001 -5) (layer "B.SilkS") (width 0.2) (fill none) (tstamp 5e71828d-1bd6-4cf0-b577-6aee6c284553))
+  (gr_arc (start 0 -37.000001) (mid 0.87868 -39.121321) (end 3 -40.000001) (layer "B.SilkS") (width 0.2) (tstamp 5ea0173c-0921-47b7-9482-d569572fbf3a))
+  (gr_line (start 3 -40.000001) (end 73.000001 -40.000001) (layer "B.SilkS") (width 0.2) (tstamp 7212426c-8f42-4904-bc5d-cc134cae5d37))
+  (gr_circle (center 71.000001 -35.000001) (end 72.700001 -35.000001) (layer "B.SilkS") (width 0.2) (fill none) (tstamp 766f7348-c799-4ed9-87e7-483f17c46ec4))
+  (gr_circle (center 5 -35.000001) (end 9.5 -35.000001) (layer "B.SilkS") (width 0.2) (fill none) (tstamp 9257a1c2-9c16-4389-af2b-7acc3a6be622))
+  (gr_line (start 73.000001 0) (end 3 0) (layer "B.SilkS") (width 0.2) (tstamp ae6b9181-0a2f-4483-9f95-d08686e188ee))
+  (gr_circle (center 5 -35.000001) (end 6.7 -35.000001) (layer "B.SilkS") (width 0.2) (fill none) (tstamp f7f78fe7-3575-4369-abf7-163f34050d1b))
+  (gr_line (start 0 -3) (end 0 -37.000001) (layer "F.SilkS") (width 0.2) (tstamp 1048d118-0d3e-4d54-97dc-2ac2cb3191c1))
+  (gr_circle (center 5 -35.000001) (end 8 -35.000001) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 2772251d-ed67-4579-8cb3-e5375cc5c3cc))
+  (gr_circle (center 71.000001 -5) (end 74.000001 -5) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 279a5d7b-fb48-4e42-babc-f262e6898719))
+  (gr_line (start 3 -40.000001) (end 73.000001 -40.000001) (layer "F.SilkS") (width 0.2) (tstamp 64de9b48-4761-45a1-bcc6-e75d58dc0ff5))
+  (gr_line (start 76.000001 -37.000001) (end 76.000001 -3) (layer "F.SilkS") (width 0.2) (tstamp 6886b4da-6857-49d5-ae00-5b4742a1e524))
+  (gr_circle (center 71.000001 -35.000001) (end 74.000001 -35.000001) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 8270b5eb-c6a0-4819-85d1-1bb99a4af301))
+  (gr_circle (center 5 -35.000001) (end 6.7 -35.000001) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 83937724-2e2a-4408-a86a-7a8088279e15))
+  (gr_circle (center 5 -5) (end 8 -5) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 9a97cf27-a9b1-4690-81dd-1733463cc86e))
+  (gr_line (start 73.000001 0) (end 3 0) (layer "F.SilkS") (width 0.2) (tstamp a2a0dba8-ef6b-4892-8d53-72c6e268f497))
+  (gr_arc (start 73.000001 -40.000001) (mid 75.121321 -39.121321) (end 76.000001 -37.000001) (layer "F.SilkS") (width 0.2) (tstamp b2588931-b8d6-4172-8594-ca4c4474de7c))
+  (gr_circle (center 71.000001 -35.000001) (end 72.700001 -35.000001) (layer "F.SilkS") (width 0.2) (fill none) (tstamp b954b2c2-40e6-4e24-8f74-54354d263f3b))
+  (gr_arc (start 0 -37.000001) (mid 0.87868 -39.121321) (end 3 -40.000001) (layer "F.SilkS") (width 0.2) (tstamp be8a8d75-b695-4f96-bef9-1c0f5dede3d9))
+  (gr_circle (center 71.000001 -5) (end 72.700001 -5) (layer "F.SilkS") (width 0.2) (fill none) (tstamp c981df5e-378e-4a51-8b72-08e8a5586b07))
+  (gr_arc (start 3 0) (mid 0.87868 -0.87868) (end 0 -3) (layer "F.SilkS") (width 0.2) (tstamp db4462c5-ea9e-450b-9c95-43f39818261a))
+  (gr_arc (start 76.000001 -3) (mid 75.121321 -0.878679) (end 73.000001 0) (layer "F.SilkS") (width 0.2) (tstamp fe2961e5-0bc2-44db-8108-3f7cfd59c6c5))
+  (gr_circle (center 5 -5) (end 6.7 -5) (layer "F.SilkS") (width 0.2) (fill none) (tstamp fed7bb54-b9e5-4ddd-bd4d-1ccab2d2a3f3))
+  (gr_circle (center 71 -35) (end 72.7 -35) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 04b10567-5a72-4dca-9614-1f4169932607))
+  (gr_arc (start 76 -3) (mid 75.12132 -0.87868) (end 73 0) (layer "Edge.Cuts") (width 0.2) (tstamp 0add9411-c15d-4e8f-a97a-e7e295904d8c))
+  (gr_line (start 3 0) (end 73 0) (layer "Edge.Cuts") (width 0.2) (tstamp 248de9e8-34c5-46c4-8463-ab706c7f352f))
+  (gr_arc (start 0 -37) (mid 0.87868 -39.12132) (end 3 -40) (layer "Edge.Cuts") (width 0.2) (tstamp 278b2d6f-add6-4268-8567-35fd0214155f))
+  (gr_line (start 76 -3) (end 76 -37) (layer "Edge.Cuts") (width 0.2) (tstamp 5d2b7770-4203-4975-b44c-127a16c1eb9a))
+  (gr_circle (center 71 -5) (end 72.7 -5) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp ad508e19-41df-49d6-bfff-956970de4e6c))
+  (gr_line (start 73 -40) (end 3 -40) (layer "Edge.Cuts") (width 0.2) (tstamp aff7ed55-90fa-4581-bf46-0b909d2bd657))
+  (gr_circle (center 5 -5) (end 6.7 -5) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp b2dadd29-d9d8-4473-bdd9-800f060450c4))
+  (gr_circle (center 5 -35) (end 6.7 -35) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp c4315e00-a7af-4654-b969-b233e9d6f592))
+  (gr_arc (start 73 -40) (mid 75.12132 -39.12132) (end 76 -37) (layer "Edge.Cuts") (width 0.2) (tstamp cad68fd0-13c9-47ea-86f7-dc1050ae3d43))
+  (gr_arc (start 3 0) (mid 0.87868 -0.87868) (end 0 -3) (layer "Edge.Cuts") (width 0.2) (tstamp d0eec540-9e0b-4303-873b-3691bbade461))
+  (gr_line (start 0 -37) (end 0 -3) (layer "Edge.Cuts") (width 0.2) (tstamp e0d2eb4d-b224-4a6b-abd9-c2e45a5d97aa))
 
+  (group "" (id 23291994-291f-4072-945d-8ca7239f4ad5)
+    (members
+      087187f1-cc07-4238-bd3d-4d7d9dfbacd5
+      0a9f0ad7-779b-4eef-9565-0e13252de8ca
+      158ce6d0-9c9b-44d9-8f54-5411844874a9
+      1ce6fadd-4eef-4fd8-9719-d9501213b7b4
+      266d9224-9b79-4ea4-bd01-c8cfde6c8d9c
+      318cacea-66d0-4f4e-9050-a22735b2d3e7
+      39afe692-9c78-4236-9486-da53ad9a14ad
+      4f8fb7e3-f37c-4ea0-9840-17873f7b7e89
+      58792057-72d7-4a39-8ef3-0ba9af04f23d
+      5e71828d-1bd6-4cf0-b577-6aee6c284553
+      5ea0173c-0921-47b7-9482-d569572fbf3a
+      7212426c-8f42-4904-bc5d-cc134cae5d37
+      766f7348-c799-4ed9-87e7-483f17c46ec4
+      9257a1c2-9c16-4389-af2b-7acc3a6be622
+      ae6b9181-0a2f-4483-9f95-d08686e188ee
+      f7f78fe7-3575-4369-abf7-163f34050d1b
+    )
+  )
+  (group "" (id 6db85c31-9e6e-44ab-b98d-30d906c4e1d1)
+    (members
+      04b10567-5a72-4dca-9614-1f4169932607
+      0add9411-c15d-4e8f-a97a-e7e295904d8c
+      248de9e8-34c5-46c4-8463-ab706c7f352f
+      278b2d6f-add6-4268-8567-35fd0214155f
+      5d2b7770-4203-4975-b44c-127a16c1eb9a
+      ad508e19-41df-49d6-bfff-956970de4e6c
+      aff7ed55-90fa-4581-bf46-0b909d2bd657
+      b2dadd29-d9d8-4473-bdd9-800f060450c4
+      c4315e00-a7af-4654-b969-b233e9d6f592
+      cad68fd0-13c9-47ea-86f7-dc1050ae3d43
+      d0eec540-9e0b-4303-873b-3691bbade461
+      e0d2eb4d-b224-4a6b-abd9-c2e45a5d97aa
+    )
+  )
+  (group "" (id a85e9948-ded9-46bf-bd9e-b96cd66cd7b5)
+    (members
+      1048d118-0d3e-4d54-97dc-2ac2cb3191c1
+      2772251d-ed67-4579-8cb3-e5375cc5c3cc
+      279a5d7b-fb48-4e42-babc-f262e6898719
+      64de9b48-4761-45a1-bcc6-e75d58dc0ff5
+      6886b4da-6857-49d5-ae00-5b4742a1e524
+      8270b5eb-c6a0-4819-85d1-1bb99a4af301
+      83937724-2e2a-4408-a86a-7a8088279e15
+      9a97cf27-a9b1-4690-81dd-1733463cc86e
+      a2a0dba8-ef6b-4892-8d53-72c6e268f497
+      b2588931-b8d6-4172-8594-ca4c4474de7c
+      b954b2c2-40e6-4e24-8f74-54354d263f3b
+      be8a8d75-b695-4f96-bef9-1c0f5dede3d9
+      c981df5e-378e-4a51-8b72-08e8a5586b07
+      db4462c5-ea9e-450b-9c95-43f39818261a
+      fe2961e5-0bc2-44db-8108-3f7cfd59c6c5
+      fed7bb54-b9e5-4ddd-bd4d-1ccab2d2a3f3
+    )
+  )
 )
