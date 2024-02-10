@@ -1,0 +1,61 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.1*%
+%TF.CreationDate,2024-02-10T23:33:58+09:00*%
+%TF.ProjectId,LED_lighting_large,4c45445f-6c69-4676-9874-696e675f6c61,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.1) date 2024-02-10 23:33:58*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.250000X0.544709X-0.465206X0.681272X0.221343X-0.544709X0.465206X-0.681272X-0.221343X0*%
+%ADD11HorizOval,1.200000X-0.269716X0.053650X0.269716X-0.053650X0*%
+%ADD12RoundRect,0.250000X0.681272X-0.221343X0.544709X0.465206X-0.681272X0.221343X-0.544709X-0.465206X0*%
+%ADD13HorizOval,1.200000X0.269716X0.053650X-0.269716X-0.053650X0*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J2*%
+X41361849Y-10266566D03*
+D11*
+X41752029Y-8304995D03*
+X42142210Y-6343425D03*
+%TD*%
+D12*
+%TO.C,J1*%
+X42142210Y6343425D03*
+D13*
+X41752029Y8304995D03*
+X41361849Y10266566D03*
+%TD*%
+M02*
