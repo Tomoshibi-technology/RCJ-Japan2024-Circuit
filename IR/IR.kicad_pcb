@@ -193,7 +193,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/1beba0fe-e6ab-4dce-badc-891dece14381")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U12" (at -0.04 -2.4 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 633a9ee6-da02-4a58-81dd-640b7389ea45)
@@ -242,7 +242,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/0bbb990a-fca4-474e-a111-e3e7b0d28095")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "Q13" (at -0.02 -2.23 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1879c41c-4515-46cf-8b83-4e64b3a602c3)
@@ -289,7 +289,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/599f1f1b-15a8-4df2-9d98-f894102887c5")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D13" (at 0 -4.5 33.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 594aa90a-5f08-4c65-9e69-34e6a554a46c)
@@ -353,7 +353,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/865aca2c-5985-4fcd-b141-98e5f5c353df")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D21" (at 0 -4.5 33.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bd6e608e-111b-4149-918e-8707ba638fd1)
@@ -415,7 +415,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/08d6e6fa-8766-449d-a5ee-5970e506a225")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "SW2" (at 0 -8.128 -90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e721d09b-c901-493c-ab5c-71f7f92257da)
@@ -458,7 +458,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/3e847dc7-335b-4e2c-9c40-a99b70707cbf")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D20" (at 0 -4.5 11.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2f19eff6-ab6a-4c66-8a5e-60fe78134b58)
@@ -522,7 +522,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/37a855eb-fcde-4ad4-bee8-49f2ed8ddf65")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "J2" (at 0 -8.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9686862-69da-4178-933a-e351ab34d967)
@@ -613,7 +613,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/18b305a0-4b61-49f5-b10a-700cb6bfba35")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D16" (at 0 -4.5 101.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e17cc00-25b0-47fa-ad3c-9477a5f6f347)
@@ -677,7 +677,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/fea90522-830a-470b-8277-070e0bd66788")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "C28" (at 0 -5.2 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce174172-3edf-47e2-b811-760d9df82a03)
@@ -719,9 +719,9 @@
     (fp_line (start -4.15 -3.15) (end -4.15 3.15) (layer "F.Fab") (width 0.1) (tstamp c443f25c-7028-4d24-937a-5c25b02fa2e6))
     (fp_line (start -3.15 -4.15) (end 4.15 -4.15) (layer "F.Fab") (width 0.1) (tstamp e2f8fced-6a5f-4c62-ac0e-1250bd07b37a))
     (fp_circle (center 0 0) (end 4 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp ccce6f3a-7bc3-4782-aefd-344c63d686a1))
-    (pad "1" smd roundrect (at -3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048)
+    (pad "1" smd roundrect (at -3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1190480952)
       (net 5 "+3.3V") (pintype "passive") (tstamp 6a543515-5703-4e54-8374-7318481312db))
-    (pad "2" smd roundrect (at 3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048)
+    (pad "2" smd roundrect (at 3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1190480952)
       (net 4 "GND") (pintype "passive") (tstamp be208e19-6e73-4744-8424-90f41255c6d5))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Elec_8x10.2.wrl"
       (offset (xyz 0 0 0))
@@ -738,7 +738,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/52242bc8-4237-42e9-944d-5c81b169e10c")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D12" (at 0 -4.5 11.3) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6d5a88fa-892b-438a-a4f8-bff49fe83973)
@@ -802,7 +802,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/d6a5b27c-9d00-433b-885a-7a474e78c38f")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "SW1" (at 3.81 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e72ac1b6-4a63-4474-98f5-4ec227183fee)
@@ -865,7 +865,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/103076c5-5d52-4412-acc4-26ca4ce66b9d")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "Q15" (at 0 -2.5 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f6926ac-7c9b-4b66-8d50-3a6ab7493d3f)
@@ -912,7 +912,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/d9d30e51-661d-4ccc-9ebc-4d5120b55ff5")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D17" (at 0 -4.5 123.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7effbe72-89d4-4287-9488-91133e30f854)
@@ -976,7 +976,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/0953f5f1-8acd-4585-9430-ea700269847a")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D5" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b1243b71-38fa-4e02-814a-4d09bff1b7bd)
@@ -1020,7 +1020,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/6099b991-9fcb-4ae1-b2fc-6ef3868551a3")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U3" (at -0.04 -2.4 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6dc1c67d-8f3d-425f-b879-bc63d59ba151)
@@ -1069,7 +1069,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/8fd36548-5649-43ae-b8ae-8ac2ca51dd2e")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "SW4" (at 0 -4.3) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0bc17345-4228-4c44-9ffb-7acafe8d8463)
@@ -1128,7 +1128,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/e6d2c1ff-1288-4048-bf5c-34113ae8682e")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D26" (at 0 -4.5 146.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec9e47e3-62ac-4451-b44a-8d6291df43c0)
@@ -1192,7 +1192,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/8557a18a-fe33-4bc7-9b51-fedd1c062849")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U10" (at -0.04 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cedc7e70-785f-4c5d-aef8-bf538a12c9a0)
@@ -1241,7 +1241,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/97c71752-05d4-43d0-8647-b1ea0d50ee27")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D27" (at 0 -4.5 168.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63996248-7748-47df-be1a-c1bd08825496)
@@ -1305,7 +1305,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/b713e34a-d58f-48ac-bf4e-f94e47d65322")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D18" (at 0 -4.5 146.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c7e80495-19fe-4090-8dbd-9679cc421900)
@@ -1369,7 +1369,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/76964fad-0c2f-467f-8f31-441993b4171e")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "Q16" (at 63.670001 -70.890001) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 31854c19-318b-4a1e-a139-ff6c282d04a2)
@@ -1416,7 +1416,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/83b8239d-b6f8-407a-8031-4de274681425")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D3" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 06bfc59d-0d19-424d-a083-b191acfb7810)
@@ -1460,7 +1460,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/58e7d591-ebbe-4496-9a08-e3bf442db7f7")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D19" (at 0 -4.5 168.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 98532481-36b0-4728-9001-186026baf1f9)
@@ -1524,7 +1524,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/ec2638bd-0903-4613-bdcb-799d65041450")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D8" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ceedb7c0-7f48-408a-b562-c887f4fba379)
@@ -1568,7 +1568,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/a3b7446a-f366-48d3-b65a-691eb97ef002")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D14" (at 0 -4.5 56.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ccafb78-3df0-4e76-a37c-d14386c3881d)
@@ -1632,7 +1632,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/8134312d-4c1c-4365-84d5-0a20970002fd")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U8" (at -0.04 -2.4 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fcf2a12a-f635-4221-992e-01460fff2fb2)
@@ -1681,7 +1681,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/8ff5176a-bbc6-486e-9499-efb2a3fde43e")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U11" (at -0.04 -2.4 22.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5efb1913-819c-4759-a599-fc29e3242e03)
@@ -1730,7 +1730,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/c005807e-0bbc-4cac-972e-d1f794ce0ecc")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U16" (at -0.04 -2.4 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb434c68-d07b-451d-8ba6-d1e7a7aa3ad9)
@@ -1779,7 +1779,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/32145052-b96d-4c4e-bf97-df3f0c05abef")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D6" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b50345cd-0c3a-4264-a3a8-f2846980e248)
@@ -1823,7 +1823,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/0d1069e6-5952-4150-ac8e-8ecf1eddf099")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "C27" (at 0 -5.2 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87f3ef01-97d9-4093-b785-13c99479db79)
@@ -1865,9 +1865,9 @@
     (fp_line (start 4.15 -4.15) (end 4.15 4.15) (layer "F.Fab") (width 0.1) (tstamp 8e5401b1-919d-451d-bebc-66d308396f0e))
     (fp_line (start -4.15 -3.15) (end -3.15 -4.15) (layer "F.Fab") (width 0.1) (tstamp dcd47a26-3e1e-49f6-a92c-a354854eaf48))
     (fp_circle (center 0 0) (end 4 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 1c390dc8-520a-40e4-be18-ee25eaca0f80))
-    (pad "1" smd roundrect (at -3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048)
+    (pad "1" smd roundrect (at -3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1190480952)
       (net 6 "VDD") (pintype "passive") (tstamp b3b30070-0bef-4b55-9c6d-3332cd0e23d1))
-    (pad "2" smd roundrect (at 3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048)
+    (pad "2" smd roundrect (at 3.6 0 270) (size 4.5 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1190480952)
       (net 4 "GND") (pintype "passive") (tstamp 2aaaed3e-0140-443c-bccc-f53a3728d662))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Elec_8x10.2.wrl"
       (offset (xyz 0 0 0))
@@ -1884,7 +1884,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/bb037a11-5f48-40a9-b489-ea7f9cb51f05")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D15" (at 0 -4.5 78.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a386fbc1-4dd9-462b-a583-527c9b0414d5)
@@ -1948,7 +1948,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/579505e4-5620-4a5b-ae63-d6af28e2ea57")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U13" (at -0.04 -2.4 67.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f75d8d2b-6306-42c0-9ef3-34895cfa5228)
@@ -1997,7 +1997,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/5a72eb77-dbf6-48e1-90de-49921157c8cc")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D22" (at 0 -4.5 56.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ea3caad-2362-4030-8d22-991e6184c679)
@@ -2094,7 +2094,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/636173ae-ef48-49ae-b6a8-284b1c142a95")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U6" (at -0.04 -2.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1c688af3-24c4-455e-875f-894be3744ba7)
@@ -2143,7 +2143,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/b892f8dd-d852-43f9-88d6-000730cfcb05")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D24" (at 0 -4.5 101.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9daa14ea-fb33-4358-aec7-d583f7249391)
@@ -2207,7 +2207,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/c6dbd665-e8b3-4e94-a216-c668e096dd1b")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U2" (at -0.04 -2.4 22.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1239fabf-b46e-44ce-aa67-8df3e4c21ee1)
@@ -2256,7 +2256,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/640b357c-0f76-4b92-a561-999a83d44f63")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D23" (at 0 -4.5 78.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 635a22fa-3304-4525-91b5-ffcf7e35b43d)
@@ -2320,7 +2320,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/c2768a41-ad8d-48a4-83b3-45875b2aba62")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U17" (at -0.04 -2.4 157.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d44372f3-8cbb-4fb8-922d-85723729a305)
@@ -2369,7 +2369,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/64b85f4a-c026-4abe-8c3a-4ee0f31e8f51")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U14" (at -0.04 -2.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e677987-f74a-40dc-967f-19985be94e4f)
@@ -2418,7 +2418,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/c854b729-7859-4e64-a160-dc476814ef16")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "Q14" (at 0 -2.5 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e665c511-881e-460d-9f01-1e1f8237d32a)
@@ -2465,7 +2465,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/ebdc1334-740d-4640-a356-56fe3a5d8cc2")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U4" (at -0.04 -2.4 67.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c689ce32-ed57-4615-9c70-e2d490f16d63)
@@ -2514,7 +2514,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/15d61c16-b6b9-4331-a82a-f2000bde4019")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U15" (at -0.04 -2.4 112.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab7cdfa2-28fa-4bda-ad55-1c205b5f20f0)
@@ -2563,7 +2563,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/cfb7697b-2eb5-441a-ab12-ca899b156034")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U1" (at -0.04 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2624bafd-9cc5-4be1-88ab-d9a39cc6cff0)
@@ -2612,7 +2612,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/502f2cc4-4f0b-4cba-9d28-4a94d651d55a")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D11" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 59e4ae5e-ba60-46c0-852f-9d3b47e4241f)
@@ -2654,7 +2654,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/a189f4b3-02bb-473f-9a53-54be732c3d1f")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "SW3" (at 0 -8.128 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6c50ff91-9657-4a92-90e3-f17db16bb84d)
@@ -2707,7 +2707,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/3952e740-0bb4-4aff-b38b-b5b6891b431e")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D4" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 593cfe43-c25e-4d84-85fd-006d654b940f)
@@ -2751,7 +2751,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/7dc9002b-7128-470d-8df7-2f08f5ddcbe7")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "D25" (at 0 -4.5 123.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6052966-32ad-4131-aae1-95be146b2076)
@@ -2815,7 +2815,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/b6877b6a-258e-4049-a828-583fb50a7a87")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U9" (at -0.04 -2.4 157.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 78ea454c-ad86-4697-843b-55485fa12cfd)
@@ -2864,7 +2864,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/307ce524-cbc1-4eb8-bf25-42c1b5f3808a")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "JP1" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ccd6a73-f94e-4553-9756-80ce51bb6f3d)
@@ -2911,7 +2911,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/a2e35a99-b7e4-40e1-b83e-59cc7f2b2122")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "U7" (at -0.04 -2.4 112.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7ca21cbf-f167-4524-84b4-4d1a44c8c4e2)
@@ -3869,7 +3869,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/d5ed720f-9f5c-4f98-b1cf-0878c5805d6e")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "J4" (at 3.75 4.3 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp eef20052-fc40-45e1-871f-c8cedf96b73c)
@@ -3901,7 +3901,7 @@
     (fp_line (start 8.95 -1.8) (end 9.95 -0.8) (layer "B.Fab") (width 0.1) (tstamp 8d3992b0-b705-4c6f-97aa-4afdf9d18ce1))
     (fp_line (start 0 -1.092893) (end 0.5 -1.8) (layer "B.Fab") (width 0.1) (tstamp 9c816d12-0678-4ada-ad09-b41b2f6ae7dc))
     (fp_line (start 9.95 3.1) (end -2.45 3.1) (layer "B.Fab") (width 0.1) (tstamp a95c41d6-e155-4f10-bc27-7a506485cfb0))
-    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235)
       (net 4 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 7d4ab2b0-3d19-4e06-a6c5-08bb29a1a4f1))
     (pad "2" thru_hole oval (at 2.5 0 90) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask)
       (net 4 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 9ae699f6-e73a-454c-8a38-9686d9f4e5f9))
@@ -5781,7 +5781,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/3df35fba-bf2a-4f1b-bb30-5ca071192098")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U22" (at 0 3.4 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5bf2471e-82e2-4d62-ba04-6334b2377f26)
@@ -6048,7 +6048,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/5235627c-b773-4b75-b9d4-b91f27857a50")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "J3" (at 3.75 4.3 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5884099a-4cc2-4cfc-9494-2cea9e7a76cf)
@@ -6080,7 +6080,7 @@
     (fp_line (start 9.95 -0.8) (end 9.95 3.1) (layer "B.Fab") (width 0.1) (tstamp 9bdc368a-58de-4029-8c9e-7ce3e99bf357))
     (fp_line (start 8.95 -1.8) (end 9.95 -0.8) (layer "B.Fab") (width 0.1) (tstamp f23ca6cc-b115-4c4f-8aea-eabbf4bb4be5))
     (fp_line (start 9.95 3.1) (end -2.45 3.1) (layer "B.Fab") (width 0.1) (tstamp f7910903-bfdb-43f8-b180-9be814f5d1e9))
-    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235)
       (net 4 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 0c7a0a89-c19f-427b-bfc0-2fc61c8c0204))
     (pad "2" thru_hole oval (at 2.5 0 90) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask)
       (net 4 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 2b2a087b-cd6f-46a4-b09c-0e2839976efc))
@@ -6192,7 +6192,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/da7539ea-cfb7-4831-8c48-c7cd18b83a16")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "J1" (at 1.25 4.3 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d6780c75-6240-4a7c-82d6-5ea7ae0a7b42)
@@ -6224,7 +6224,7 @@
     (fp_line (start 4.95 3.1) (end -2.45 3.1) (layer "B.Fab") (width 0.1) (tstamp d33b3783-794b-4332-9dbc-a9761cc831cc))
     (fp_line (start -2.45 3.1) (end -2.45 -1.8) (layer "B.Fab") (width 0.1) (tstamp f8179cae-60f5-4596-9c23-711a2e87285f))
     (fp_line (start 4.95 -0.8) (end 4.95 3.1) (layer "B.Fab") (width 0.1) (tstamp fcfa499c-7738-4369-ac2f-730b2a796dca))
-    (pad "1" thru_hole roundrect (at 0 0 270) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
+    (pad "1" thru_hole roundrect (at 0 0 270) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask) (roundrect_rratio 0.1470588235)
       (net 4 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp e0fc7fff-7c7d-422e-ab30-3fac818401e7))
     (pad "2" thru_hole oval (at 2.5 0 270) (size 1.7 1.85) (drill 0.85) (layers *.Cu *.Mask)
       (net 16 "/5VBAT") (pinfunction "Pin_2") (pintype "passive") (tstamp ed07574c-acaa-4187-b932-7540d365a67e))
@@ -7784,7 +7784,7 @@
     (property "Sheetfile" "IR.kicad_sch")
     (property "Sheetname" "")
     (path "/195329b4-0da2-41c0-a663-1289c300fa1c")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U5" (at 0 4.5 -270) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0d089c8d-d4de-49f2-9972-fa359d114230)
@@ -9066,8 +9066,26 @@
     )
   )
 
-  (gr_circle (center 117.470003 164.267434) (end 117.470002 159.767434) (layer "F.SilkS") (width 0.2) (fill none) (tstamp a5df913d-e34c-4324-b946-1f3c19922048))
-  (gr_circle (center 117.470003 164.267434) (end 117.470001 161.267431) (layer "F.SilkS") (width 0.2) (fill none) (tstamp b17a220e-5777-4288-be58-0a56358e1300))
+  (gr_line (start 145.78 144.35) (end 146.88 144.35) (layer "F.SilkS") (width 0.15) (tstamp 03b44802-eed6-45bd-a18c-6646c0653124))
+  (gr_rect (start 147.68 145.85) (end 146.88 145.05) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 13905a15-b245-4ee2-b802-e9ca89feea11))
+  (gr_line (start 136.73 127.6) (end 136.73 132.7) (layer "F.SilkS") (width 0.15) (tstamp 28c8441f-cdc9-4368-b4ff-f253869bfa9b))
+  (gr_line (start 143.68 144.35) (end 143.68 151.75) (layer "F.SilkS") (width 0.15) (tstamp 36091414-bf31-43c0-ab29-24942ebe4c13))
+  (gr_rect (start 143.68 149.75) (end 142.88 148.95) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 39aba95d-2ba9-415f-af92-8ece9a45d0a8))
+  (gr_rect (start 147.68 151.05) (end 146.88 150.25) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 3dd8d51b-c600-4d2e-b395-85fe3f059351))
+  (gr_rect (start 143.68 145.85) (end 142.88 145.05) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 4971b8c0-dffc-4256-8482-fe8c12050405))
+  (gr_rect (start 143.68 147.15) (end 142.88 146.35) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 4bfc3b2a-1c2f-4485-8b57-481458d2a765))
+  (gr_line (start 143.68 144.35) (end 144.78 144.35) (layer "F.SilkS") (width 0.15) (tstamp 52ea90b6-0a72-488a-88a9-30a19892ebf2))
+  (gr_rect (start 147.68 147.15) (end 146.88 146.35) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 584f3148-4308-4376-99b7-ce0786c7c808))
+  (gr_line (start 146.88 144.35) (end 146.88 151.75) (layer "F.SilkS") (width 0.15) (tstamp 65936f85-53a8-4173-91df-bc3400d055d9))
+  (gr_line (start 128.53 127.6) (end 128.53 132.7) (layer "F.SilkS") (width 0.15) (tstamp 7875e60e-d9a5-4ead-ada6-ab884604a65c))
+  (gr_line (start 119.28 127.6) (end 119.28 132.7) (layer "F.SilkS") (width 0.15) (tstamp 8db7f9a7-f2f0-4249-9b54-f1bd6b20a7fb))
+  (gr_rect (start 143.68 151.05) (end 142.88 150.25) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 8ec217ec-c39b-4d49-893b-0a05fec78115))
+  (gr_rect (start 147.68 149.75) (end 146.88 148.95) (layer "F.SilkS") (width 0.15) (fill none) (tstamp a39b86c4-2c83-4a1a-a6ed-890b4c715811))
+  (gr_rect (start 147.68 148.45) (end 146.88 147.65) (layer "F.SilkS") (width 0.15) (fill none) (tstamp bc7a064c-2349-4010-b4b4-083b9d8f8ea0))
+  (gr_line (start 127.48 127.6) (end 127.48 132.7) (layer "F.SilkS") (width 0.15) (tstamp d898cc09-7a84-4244-bae6-daa1ca14033e))
+  (gr_rect (start 143.68 148.45) (end 142.88 147.65) (layer "F.SilkS") (width 0.15) (fill none) (tstamp dfa48420-867e-4473-86c5-00dbb060c455))
+  (gr_line (start 143.68 151.75) (end 146.88 151.75) (layer "F.SilkS") (width 0.15) (tstamp e4c6f1c5-8349-4679-a8c2-9e4f0bdbcfca))
+  (gr_arc (start 145.78 144.35) (mid 145.28 144.85) (end 144.78 144.35) (layer "F.SilkS") (width 0.15) (tstamp f89210ce-9842-4127-89a5-f6dd96b6489c))
   (gr_line (start 162.47 120.255601) (end 162.47 166.279999) (layer "Edge.Cuts") (width 0.2) (tstamp 194c0171-9aa0-48ec-b8d5-23c6eee541c8))
   (gr_arc (start 141.97 46.279999) (mid 137.47 50.779999) (end 132.97 46.279999) (layer "Edge.Cuts") (width 0.2) (tstamp 1eb53b73-8af8-4351-be87-212024a75bc2))
   (gr_line (start 112.47 166.279999) (end 112.47 120.255601) (layer "Edge.Cuts") (width 0.2) (tstamp 1f7f62e0-3630-4752-9033-4bba86e77894))
@@ -9091,14 +9109,80 @@
   (gr_arc (start 115.47 169.279999) (mid 113.34868 168.401319) (end 112.47 166.279999) (layer "Edge.Cuts") (width 0.2) (tstamp e18559b8-182c-411d-9fcc-386e2b6f8ca2))
   (gr_arc (start 163.798839 99.677114) (mid 162.151725 93.529999) (end 168.298839 91.882885) (layer "Edge.Cuts") (width 0.2) (tstamp ebb9c9ad-7914-4c7a-a50d-8bf152a18110))
   (gr_arc (start 106.641161 91.882885) (mid 112.788277 93.529999) (end 111.141161 99.677114) (layer "Edge.Cuts") (width 0.2) (tstamp f8f5b2c7-9659-43f6-a9bc-39aba60b0213))
-  (gr_text "Designed by\n@cat_nekonekone" (at 144.51 147.569999) (layer "F.SilkS") (tstamp 47af83c0-0ef6-472b-b0b7-a9eb25624e75)
-    (effects (font (size 0.9 0.9) (thickness 0.13)))
+  (gr_text "PB4" (at 149.58 146.7) (layer "F.SilkS") (tstamp 05ab213b-2f01-4c92-a1fc-398c66de7580)
+    (effects (font (size 1 1) (thickness 0.12)))
   )
-  (gr_text "Tomoshibi" (at 127.99 148.789999) (layer "F.SilkS") (tstamp d2471333-49d7-4075-93c6-e3f48efa0c06)
-    (effects (font (size 1.8 1.8) (thickness 0.21)))
+  (gr_text "PB9" (at 130.58 151.75) (layer "F.SilkS") (tstamp 0d397b3d-58e3-4b14-a16f-a20f45ab2ce7)
+    (effects (font (size 1 1) (thickness 0.12)))
   )
-  (gr_text "燈" (at 127.87 143.709999) (layer "F.SilkS") (tstamp ee614cff-f2fe-4edc-8374-bcd730f71f44)
-    (effects (font (size 6 6) (thickness 0.42)))
+  (gr_text "TX2:PA2" (at 132.68 130.35) (layer "F.SilkS") (tstamp 1749a31d-0552-42d0-82cd-806953a433b5)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "PA12" (at 149.98 149.5) (layer "F.SilkS") (tstamp 19883728-eae2-476f-b2dc-d6dd166d6b6d)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "JLCJLCJLCJLC" (at 136.28 162.25 90) (layer "F.SilkS") (tstamp 2314d32e-67e1-4ef8-b756-9071ce2ef336)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "[STLink]" (at 123.38 128.55) (layer "F.SilkS") (tstamp 2b4a553a-a147-411b-ab8e-bf152f4de120)
+    (effects (font (size 1 1) (thickness 0.13)))
+  )
+  (gr_text "PB7" (at 127.08 151.75) (layer "F.SilkS") (tstamp 3944c96d-a307-471d-9ac5-ec3a962960a0)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "Designed by\n@cat_nekonekone" (at 152.73 129.15) (layer "F.SilkS") (tstamp 47af83c0-0ef6-472b-b0b7-a9eb25624e75)
+    (effects (font (size 1 1) (thickness 0.13)))
+  )
+  (gr_text "RX2:PA15" (at 132.63 131.8) (layer "F.SilkS") (tstamp 6e38ea88-5a34-46b7-b898-fce1dc6e696f)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "PB3" (at 149.58 148.1) (layer "F.SilkS") (tstamp 83433ab6-82c8-4796-bedc-8c0414fdf9ca)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "VDD" (at 156.68 133.15) (layer "F.SilkS") (tstamp 8553b5a5-1a50-4c3f-bb41-e68faf3349d7)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "PB6" (at 127.08 153.45) (layer "F.SilkS") (tstamp 97f0a2b6-e383-4e6a-97c1-e953f3e21329)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "NRST" (at 155.38 157.85) (layer "F.SilkS") (tstamp a583d336-87e9-4bd3-9996-593214f2e4e8)
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
+  (gr_text "[RS485]" (at 132.63 128.55) (layer "F.SilkS") (tstamp ad91651b-3e50-4fa2-8f98-9f2165ac6672)
+    (effects (font (size 1 1) (thickness 0.13)))
+  )
+  (gr_text "PA11" (at 149.98 150.9) (layer "F.SilkS") (tstamp ae9bdc6c-5234-499f-854c-eaaec3364d20)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "PC6" (at 144.18 166.65) (layer "F.SilkS") (tstamp b6f956bd-69f2-4a1d-b9e1-9824189b9a0a)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "GND" (at 159.88 161.05) (layer "F.SilkS") (tstamp ca4ff248-cc06-4579-89b1-c961114d8672)
+    (effects (font (size 1 1) (thickness 0.13)))
+  )
+  (gr_text "RX1:PA10" (at 123.38 131.85) (layer "F.SilkS") (tstamp ce7f2e64-b46f-4f80-a33e-31663c8f17ab)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "PB8" (at 130.58 153.45) (layer "F.SilkS") (tstamp ce94aa3e-3cfe-42b6-a65c-5bc9d6fcc265)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "Tomoshibi" (at 128.48 148.15) (layer "F.SilkS") (tstamp d2471333-49d7-4075-93c6-e3f48efa0c06)
+    (effects (font (size 2 2) (thickness 0.23)))
+  )
+  (gr_text "3.3V" (at 156.68 134.85) (layer "F.SilkS") (tstamp d5317d3c-f65c-4e50-8fd9-597487a12104)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "燈" (at 128.38 143.15) (layer "F.SilkS") (tstamp ee614cff-f2fe-4edc-8374-bcd730f71f44)
+    (effects (font (size 5.5 5.5) (thickness 0.38)))
+  )
+  (gr_text "POWER" (at 126.28 167.25) (layer "F.SilkS") (tstamp f5bcfd6e-5bad-40d3-86ef-60856231b1f8)
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
+  (gr_text "PB5" (at 149.58 145.3) (layer "F.SilkS") (tstamp f7d9f728-7462-4ff9-b00f-ad0ed42e19dd)
+    (effects (font (size 1 1) (thickness 0.12)))
+  )
+  (gr_text "TX1:PA9" (at 123.43 130.35) (layer "F.SilkS") (tstamp f815cb77-86fd-4848-b433-9e95bc0159dc)
+    (effects (font (size 1 1) (thickness 0.12)))
   )
 
   (segment (start 161.29 164.733603) (end 158.123604 167.899999) (width 0.25) (layer "B.Cu") (net 1) (tstamp 036fe6f1-c62a-4c0b-b79f-6b48fd32777c))
@@ -27189,6 +27273,26 @@
         (xy 147.74867 128.3962)
         (xy 151.444 128.3962)
       )
+    )
+  )
+  (group "" (id 42703bb7-32a8-4660-b3ab-16920d9da7d3)
+    (members
+      03b44802-eed6-45bd-a18c-6646c0653124
+      13905a15-b245-4ee2-b802-e9ca89feea11
+      36091414-bf31-43c0-ab29-24942ebe4c13
+      39aba95d-2ba9-415f-af92-8ece9a45d0a8
+      3dd8d51b-c600-4d2e-b395-85fe3f059351
+      4971b8c0-dffc-4256-8482-fe8c12050405
+      4bfc3b2a-1c2f-4485-8b57-481458d2a765
+      52ea90b6-0a72-488a-88a9-30a19892ebf2
+      584f3148-4308-4376-99b7-ce0786c7c808
+      65936f85-53a8-4173-91df-bc3400d055d9
+      8ec217ec-c39b-4d49-893b-0a05fec78115
+      a39b86c4-2c83-4a1a-a6ed-890b4c715811
+      bc7a064c-2349-4010-b4b4-083b9d8f8ea0
+      dfa48420-867e-4473-86c5-00dbb060c455
+      e4c6f1c5-8349-4679-a8c2-9e4f0bdbcfca
+      f89210ce-9842-4127-89a5-f6dd96b6489c
     )
   )
   (group "" (id a7fe332b-afc9-4969-9861-276b8d7ea952)
