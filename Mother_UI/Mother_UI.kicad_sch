@@ -1749,6 +1749,7 @@
     )
   )
 
+
   (junction (at 78.74 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 00367bc6-c209-48c5-8930-44aa838cebca)
   )
@@ -5436,7 +5437,7 @@
     (property "Reference" "C19" (id 0) (at 434.34 104.14 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10uF" (id 1) (at 431.8 106.68 90)
+    (property "Value" "22uF" (id 1) (at 431.8 106.68 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 438.15 110.7948 0)
@@ -6097,6 +6098,22 @@
     (pin "4" (uuid 77f40259-e07f-483d-b7b6-8df7e33a6fab))
   )
 
+  (symbol (lib_id "power:GND") (at 480.06 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a86b5b23-e7e2-48ad-96ac-4f2cb146d0a5)
+    (property "Reference" "#PWR0104" (id 0) (at 480.06 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 480.06 93.98 0))
+    (property "Footprint" "" (id 2) (at 480.06 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 480.06 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4792fb96-a0c2-4fb2-9e06-74ed34c5dfd7))
+  )
+
   (symbol (lib_id "power:GND") (at 530.86 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a92ce9c2-3a13-4991-ad80-60f9b9004e58)
@@ -6679,24 +6696,6 @@
     (pin "2" (uuid a46bbfd8-6a01-4f45-b043-2313a8f4ba1d))
   )
 
-  (symbol (lib_id "power:GNDA") (at 480.06 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid ecab8b42-20bf-4b91-b2d7-d657e95a68b5)
-    (property "Reference" "#PWR045" (id 0) (at 480.06 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (id 1) (at 480.06 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (id 2) (at 480.06 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 480.06 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fbbab78d-6ac8-40c1-8f2b-cade5e894f7a))
-  )
-
   (symbol (lib_id "power:+3.3V") (at 292.1 180.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ed1a354a-716f-4a5b-b5a2-95949dd087a4)
@@ -6775,7 +6774,7 @@
     (property "Reference" "C18" (id 0) (at 434.34 63.5 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10uF" (id 1) (at 431.8 66.04 90)
+    (property "Value" "22uF" (id 1) (at 431.8 66.04 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 438.15 70.1548 0)
@@ -7109,9 +7108,6 @@
     (path "/fcb4709d-6582-43fd-a178-b1ada67c71cb"
       (reference "#PWR044") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/ecab8b42-20bf-4b91-b2d7-d657e95a68b5"
-      (reference "#PWR045") (unit 1) (value "GNDA") (footprint "")
-    )
     (path "/84f5a7da-a731-4739-9b3b-28fa7277dc65"
       (reference "#PWR046") (unit 1) (value "GNDA") (footprint "")
     )
@@ -7162,6 +7158,9 @@
     )
     (path "/016c83bb-945f-4b85-8407-ecf523627c06"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a86b5b23-e7e2-48ad-96ac-4f2cb146d0a5"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/1173bd26-6417-437e-99c9-f5de4ec2c918"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -7215,10 +7214,10 @@
       (reference "C17") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/f6463945-e188-45a2-a284-543db507e5d9"
-      (reference "C18") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C18") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6b7c9542-a680-4735-9779-29dc44fb5274"
-      (reference "C19") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C19") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3f1b5640-c814-4193-b145-922f3a795c5e"
       (reference "C20") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
