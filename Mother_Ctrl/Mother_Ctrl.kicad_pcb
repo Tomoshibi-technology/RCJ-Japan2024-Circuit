@@ -4546,7 +4546,7 @@
     (property "Sheetfile" "Mother_Ctrl.kicad_sch")
     (property "Sheetname" "")
     (path "/c97e3cdc-5b3d-436a-8152-d1494710f363")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "R3" (at 0 1.43 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5a3bcf0d-9e10-4906-be05-9942dc4792d4)
@@ -9058,7 +9058,7 @@
     (property "Sheetfile" "Mother_Ctrl.kicad_sch")
     (property "Sheetname" "")
     (path "/fd0d29bf-f197-4a4c-9530-58b3e88623f2")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "R5" (at 0 1.43 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1e7368e2-4f0e-4620-84ec-c7a99a1a2393)
